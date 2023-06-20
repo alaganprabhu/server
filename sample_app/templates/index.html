@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+
+{% load static %}
+<link rel="stylesheet"  href="{% static 'index.css' %}">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+</style>
+    
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50"  >
+    <div id="home">
+        <div class="nav">
+        <div id="h"> <a href="#home">HOME</a></div>
+        <div id="a"> <a href="#about">ABOUT</a></div>
+        <div id="sk"> <a href="#skill">SKILL</a></div>
+        <div id="p"> <a href="#projects">PROJECTS</a></div>
+        <div id="c"> <a href="#contact">CONTACT</a></div>
+        </div>
+        <!-- --------------------- -->
+    <div class="n">
+        <nav class="navbar navbar-expand-sm navbar-dark fixed-top n">
+        
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>      
+            <div class="collapse navbar-collapse nn" id="collapsibleNavbar">
+                    <ul class="navbar-nav ml-auto ">
+                      <li class="nav-item">
+                        <a class="nav-link" id="n" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="n" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="n" href="skills.html">skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" id="n" href="#contact">Contact</a>
+                      </li>
+                </ul>
+              </div>
+            </nav>
+        </div>
+
+    <div class="body">
+    <div class="bg">
+        <div class="head">
+        <h1><span id="h">im</span> <br><span class="auto"></span></h1>
+        <h2><span id="m">Full stack</span> <span id="m1">Web Developer</span></h2>
+        <!-- <h2>Full <span id="sp">Stack</span> Web <span id="sp">Developer</span></h2> -->
+        <h3>Front-End || Back-End</h3>
+        </div>
+
+        <div class="anchor">
+            <a href="#">Resume</a>
+        </div>
+        
+        <div id="imag">
+            <img src="{% static 'img/full.jpg' %}" />
+        </div>
+    </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    let typed= new Typed(".auto",{
+        strings:["Thamil Alagan"],
+        typeSpeed:150,
+        backSpeed:150,
+        loop:true
+    })
+</script>
+
+<!-- ---------------------ABOUT------------- -->
+
+<div id="about">
+    <div class="about1 reveal">
+    <div class="about2 reveal">
+    <div class="row">
+    <div class="col-sm-5 ab">
+      <img src="{% static 'img/t1.jpg' %}" width="450px" height="400px" id="s">
+    
+      <h1 id="q1"><span>Get</span>-To-<span>Know</span>-Me</h1>
+      <h3 id="q">I'm Full Stack Web Developer</h3>
+      <p>I'm passionate in Web Development & Designing. Looking forward to pursue my career in Web Development.<br>I'm able to 
+      work on Front-End & Back-End Development.</p>
+    </div>
+    <div class="col-sm-5">
+    <!-- <img src="img/t1.jpg" width="430px" height="598px" id="r"> -->
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- SKILLS------------------ -->
+<div id="skill">
+    <div class="skill reveal">
+    <h1>CompetencieS</h1>
+    
+    </div>
+    <div class="skil1 reveal">
+      <div class="row rw">
+        <div class="col-sm-5 col1">
+    
+          <div class='spa reveal'>
+            <h1>html</h1>
+          <div class="progress" id="pg">
+            <div class="progress-bar " role="progressbar" style="width:70%;">
+            </div>
+          </div>
+        </div>
+        <div class="spa reveal">
+        <h1>css & bootstrap</h1>
+          <div class="progress" id="pg">
+            <div class="progress-bar " role="progressbar" style="width:70%;">
+            </div>
+        </div>
+        </div>
+        <div class="spa reveal">
+        <h1>javascript</h1>
+          <div class="progress" id="pg">
+            <div class="progress-bar " role="progressbar" style="width:70%;">
+            </div>
+        </div>
+        </div>
+        <div class="spa reveal">
+        <h1>jquery</h1>
+          <div class="progress" id="pg">
+            <div class="progress-bar " role="progressbar" style="width:70%;">
+            </div>
+        </div>
+        </div>
+        
+        </div>
+    
+        <div class="col-sm-5 col2">
+          <div class="spa reveal">
+            <h1>react js</h1>
+              <div class="progress" id="pg">
+                <div class="progress-bar" role="progressbar" style="width:70%;">
+                </div>
+            </div>
+            </div>
+            <div class="spa reveal">
+              <h1>python</h1>
+                <div class="progress" id="pg">
+                  <div class="progress-bar " role="progressbar" style="width:70%;">
+                  </div>
+              </div>
+              </div>
+              <div class="spa reveal">
+                <h1>django</h1>
+                  <div class="progress" id="pg">
+                    <div class="progress-bar " role="progressbar" style="width:70%;">
+                    </div>
+                </div>
+                </div>
+                <div class="spa reveal">
+                  <h1>mysql</h1>
+                    <div class="progress" id="pg">
+                      <div class="progress-bar " role="progressbar" style="width:70%;">
+                      </div>
+                  </div>
+                  </div>
+        
+    </div>
+    </div>
+    </div>
+    </div>
+  
+  <!-- -----PROJECTS------------------------ -->
+  <div id="projects">
+    <div class="prj">
+    </div>
+  <h1>My-work</h1>
+    <div class="column" id="col">
+      
+    <div class="prt" id="j">
+    <img src="img/cont4.jpg" width="100%" height="275px">
+    <div id="pj">
+        <p>Front-End</p>
+    </div>
+    </div>
+    
+    <div class="prt">
+    <img src="img/d3.jpg" width="100%" height="275px">
+    <div id="pj">
+        <p>Front-End</p>
+    </div>
+    </div>
+    </div>
+  
+    <div class="column" id="col_1">
+      <div class="prt" id="j">
+      <img src="img/d3.jpg" width="100%" height="280px">
+      <div id="pj">
+          <p>Front-End</p>
+      </div>
+      </div>
+      
+      <div class="prt">
+      <img src="img/d3.jpg" width="100%" height="280px">
+      <div id="pj">
+          <p>Front-End</p>
+      </div>
+      </div>
+      </div>
+    </div>
+    
+  <!-- -------------------CONTACT---------- -->
+  <div id="contact">
+    <div class="contact">
+      <div class="ctc">
+        <div class="hd" id="cont">
+        <center><h1><span>G</span>et <span>I</span>n <span>T</span>ouch...</h1></center>
+        <h5>I am always open to discussing new projects, creative ideas or oppurtunities to be part of you visions.</h5>
+        <h6> <i class="fa fa-envelope"></i> thamilalagan95@gmail.com </h6>
+        <h6> <i class="fa fa-phone"></i> 0123456789 </h6>
+        <center><button onclick="show()">send</button></center>
+      </div>
+      
+      <form action="addData" method="POST" class="form" id="frm">
+      
+            {% csrf_token %}
+            <input type="text" placeholder="Name" name="name">
+            <input type="text" placeholder="Email" name="email">
+            <input type="text" placeholder="Mobile-No" name="mobile">
+            <!-- <input type="text" placeholder="Message" name="message"> -->
+            <textarea rows="4" cols="15" placeholder="Leave your comments" name="message"></textarea>
+            <br>
+           
+           <h5><button>submit</button>  <button id="b"><a href='#contact' onclick="hide()" >back</a></button> </h5>
+      </form>
+
+      </div>
+      </div>
+      </div>
+  
+    <script>
+      function show(){
+        document.getElementById('cont').style.display='none';
+        document.getElementById('frm').style.display='block';
+      }
+      function hide(){
+        document.getElementById('frm').style.display='none';
+        document.getElementById('cont').style.display='block';
+        }
+    </script>
+    
+    <script>
+    function reveal(){
+        let rev=document.querySelectorAll('.reveal');
+    
+        for(let i=0;i<rev.length;i++){
+            let WH=window.innerHeight;
+            let elmtop=rev[i].getBoundingClientRect().top;
+            let elmVis=150;
+    
+            if(elmtop < WH - elmVis){
+                rev[i].classList.add('act');
+            }else{
+                rev[i].classList.remove('act');
+            }
+        }
+    }
+    window.addEventListener('scroll',reveal);
+    </script>
+</body>
+</html>
